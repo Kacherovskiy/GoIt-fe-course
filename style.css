@@ -1,0 +1,62 @@
+   * {
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+   }
+   
+   .winter {
+       font-size: 16px;
+       font-family: 'Pathway Gothic One', sans-serif;
+       width: 420px;
+       margin: 45px;
+       float: left;
+   }
+   
+   .winter p {
+       color: #626262;
+   }
+   
+   .winter h3 {
+       color: #c7c1b6;
+       font-size: 20px;
+       font-weight: 200;
+       text-decoration: none;
+   }
+   
+   .winter h2 {
+       color: #626262;
+       font-family: 'Times, Times New Roman', serif;
+       font-size: 24px;
+   }
+   
+   .wrapper {
+       width: 1200px;
+       height: 2080px;
+       padding: 90px;
+   }
+   
+   .menu li {
+       display: inline-block;
+   }
+   
+   .menu a {
+       display: block;
+       text-decoration: none;
+       color: #626262;
+       font-family: 'Times, Times New Roman', serif;
+       font-size: 22px;
+       padding: 28px;
+       margin: 50px;
+   }
+   
+   .list {
+       border: #626262;
+       margin: 50px;
+   }
+   
+   .wrapper button {
+       color: #626262;
+       font-size: 22px;
+       font-family: 'Times, Times New Roman', serif;
+       padding: 7px;
+   }
