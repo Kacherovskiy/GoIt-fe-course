@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: block;
+    width: 1600px;
+    height: 1455px;
+    padding: 20px 180px;
+    position: relative;
+    background-color: rgb(232, 239, 252); 
+}
+
+.menu li {
+    display: inline;
+    margin-left: 14px;
+    font-size: 14pt;
+    text-transform: uppercase;
+    line-height: 80px;
+
+}
+.menu li:hover {
+    color: rgb(26, 188, 165);
+}
+
+.logo {
+    display: inline;
+    font-family: Roboto, sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.logo h2 {
+    display: inline-block;
+    font-size: 24pt;
+    text-transform: uppercase;
+    color: rgb(85, 82, 82);
+    margin: 19px;
+    position: absolute;
+    top: 40 px;
+}
+
+.logo h2::first-letter {
+    color: rgb(26, 188, 165);
+}
+.slider {
+    display: block;
+    height: 600px;
+    width: 1600px;
+    background: url(../images5/slide4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    margin-left: -180px;
+    text-align: center;
+}
+
+.mask {
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 200px;
+}
+.slider a {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.left {
+    display: block;
+    height: 105px;
+    width: 105px;
+    font-size: 56px;
+    color: #fff;
+    background-color: rgb(84, 161, 143);
+    position: absolute;
+    top: 210px;
+    left: 265px;
+}
+.right {
+    display: block;
+    height: 105px;
+    width: 105px;
+    font-size: 56px;
+    color: #fff;
+    background-color: rgb(84, 161, 143);
+    position: absolute;
+    top: 210px;
+    right: 265px;
+}
+.mask {
+    display: block;
+    height: 600px;
+    width: 1600px;
+    background-color: rgb(10, 10, 10);
+    opacity: 0.5;
+    }
+.list {
+
+    display: inline-block;
+    margin: 23px;
+    width: 255px;
+    height: 325px;
+    position: relative;
+}
+
+.list:first-child {
+    background-image:  url(../images5/category-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.list:nth-child(2) {
+    background-image: url(../images5/category-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.list:nth-child(3) {
+    background-image: url(../images5/category-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.list:nth-child(4) {
+    background-image: url(../images5/category-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.list p {
+    margin-top: 285px;
+    padding-left: 8px;
+    background-color: rgb(50, 50, 50);
+    font-family: Trebuchet MS, sans-serif;
+    text-transform: uppercase;
+    color: rgb(232, 239, 252);
+    text-shadow: rgb(221, 226, 236);
+    font-size: 24px;
+    line-height: 40px;
+}
+.list p:hover{
+    background-color: rgb(84, 161, 143);
+}
+
+.list p span {
+    display: inline-block;
+    background-color: rgb(100, 100, 100);
+    float: right;
+}
+
+.zagolovok {
+    display: block;
+    padding: 45px;
+    text-align: center;
+    font-size: 32px;
+    font-family: Trebuchet MS, sans-serif;
+    text-transform: uppercase;
+    color: rgb(81, 81, 81);
+}
+.button {
+    display: block;
+    height: 260px;
+    width: 235px;
+    background-color: rgb(85, 82, 82);
+    opacity: 0;
+    position: absolute;
+    bottom: 50px;
+    left: 9px;
+
+}
+.button button:first-child {
+    display: block;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+.button button:nth-child(2) {
+    display: block;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 80px;
+    left: 95px;
+}
+.button button:nth-child(3) {
+    display: block;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+.button button:last-child {
+    display: block;
+    height: 45px;
+    width: 150px;
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+.button:hover {
+   opacity: 0.5;
+}
+.button button:hover {
+    background-color: rgb(74, 247, 206);
+}
+
+.footer {
+    height: 90px;
+    width: 1600px;
+    line-height: 90px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.footer span {
+    color: rgb(84, 161, 143);
+}
