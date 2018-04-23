@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto-slab-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-slab-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* sedgwick-ave-regular - latin */
+@font-face {
+    font-family: 'Sedgwick Ave';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sedgwick Ave Regular'), local('SedgwickAve-Regular'),
+         url('../fonts/sedgwick-ave-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/sedgwick-ave-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* allura-regular - latin */
+@font-face {
+    font-family: 'Allura';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Allura Regular'), local('Allura-Regular'),
+         url('../fonts/allura-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/allura-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+.wrapper_1 {
+    display: block;
+    width: 1400px;
+    height: 1318px;
+    padding: 50px 220px;
+    position: relative;
+}
+.container {
+    text-align: center;
+   
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 120px;
+}
+.logo h4 {
+    color: rgb(252,207,53);
+    font-size: 28px;
+    font-family: 'Allura', 'Sedgwick Ave', 'italic' ; 
+}
+.menu li {
+    display: inline;
+    margin-left: 30px;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: 'Montserrat Regular' ,'Roboto Slab Regular', "sans-serif";
+    font-weight: bold;
+    
+    }
+
+.menu li:hover {
+    color: rgb(252,207,53);
+}
+.container h2 {
+    font-family: "-apple-system", 'BlinkMacSystemFont', 'Segoe UI', "Roboto", 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.container h6 {
+    margin-bottom: 75px;
+    color: rgb(119,119,119);
+    font-family: "italic" ; 
+    font-style: unset;
+    font-size: 14px;
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 230px;
+}
+.content div {
+    width: 30%;
+    position: relative;
+}
+.content img {
+    margin-bottom: 20px;
+}
+.content .circle {
+    width: 35px;
+    height: 36px;
+    position: absolute;
+    top: 16px;
+    right: 126px;
+}
+.content h4 {
+    margin-bottom: 20px;
+    
+}
+.must:valid {
+    outline-color: rgb(0,252,0)
+}
+.must:invalid {
+    outline-color: rgb(252, 0, 0)
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+}
+.must {
+    width: 100%;
+}
+.form {
+    width: 1400px;
+    height: 659px;
+    margin-left: -220px;
+    padding: 150px 220px 50px 220px;
+    background-color: black;
+    position: relative;
+}
+.form placeholder {
+    padding-left: 5px;
+}
+.sloy_1 {
+    background-image: url('images/Icon_Basket.png') no-repeat;
+    min-width: 100%;
+}  
+.form h2 {
+    color: rgb(252,252,252);
+}
+.form form input{
+    font-size: 24px;
+}
+.message {
+    width: 48%;
+    height: 150px;
+    resize: none;
+}
+.text_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text_form  .but{
+    position: absolute;
+    bottom: 15%;
+    left: 615px;
+    background-color: rgb(252,207,53);
+    font-size: 18px;
+    color: rgb(252,252,252);
+    text-transform: uppercase;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
